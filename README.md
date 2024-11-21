@@ -5,6 +5,8 @@
  - to be useful it needs muliple languages, and the ability to easily use, or at least generate functional code in several SDKs, so most likely include data like [Jina's reader api](https://jina.ai/reader/)
  - Include some agent data, not for agent capabilities, but so the model can generate moderately complex code and CoT thoughts and reasoning
  - Measure progress by benchmark scores relative to qwen 2.5 to get a meaningful vibe to progress
+ - DiffuLlama has a code and general good dataset base, ready to be instruction tuned on
+ - Model too small for benchmarks and stuff, but vibe test general ability through a couple test cases, some easy/med leetcode dsa stuff, then some general python stuff, like file manipulation, Then SDK based stuff, test simplistic things, like ICL, by feeding it some pytorch examples and asking for more, etc
 
 Notebooks:
  - HF data collection https://colab.research.google.com/drive/1mq6yODhX22Ub8YhEP42zg68xcCXQ4QwW?usp=sharing , and varitants
@@ -52,4 +54,3 @@ Reasoning data:
  - mutual reasoning https://huggingface.co/papers/2408.06195
  - monologue https://huggingface.co/papers/2311.07445
  - llamaberry O1 llama https://huggingface.co/papers/2410.02884
-
